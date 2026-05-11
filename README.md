@@ -1,23 +1,29 @@
-# Student Management System (Python)
+# Student Information System (SIS)
 
-A command-line based application built using Python to manage student records efficiently. The system allows users to store, retrieve, and analyze student data using file-based storage.
+A Python-based Student Information System that allows users to manage student records, course information, grades, transcripts, and GPA calculations using dictionaries, lists, and CSV file handling.
 
 ## Features
-- Add new student records  
-- Display all students  
-- Calculate average grades  
-- Identify top-performing student  
-- Search students by ID  
-- Count failed students  
-- Edit and delete student records  
+- Add new students
+- Record student grades
+- Delete student records
+- Display student transcripts
+- Calculate GPA
+- View course enrollment
+- Search students by major
+- Search courses by credit hours
+- Search grades by semester
+- Save updated data back to CSV files
 
 ## Technologies Used
-- Python  
-- File handling  
+- Python
+- Dictionaries
+- Lists
+- CSV file handling
+- Functions
+- Input validation
 
-## How to Run
-1. Make sure Python is installed on your system  
-2. Download the project files  
-3. Run the program:
-   ```bash
-   python student_management_system.py
+## Files
+- `Students.csv`
+- `courses.csv`
+- `grades.csv`
+- `main.py`
